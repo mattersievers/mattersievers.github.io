@@ -1,9 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-h1{
+h1 {
   font-weight: bold;
   font-size: 36px;
-  background-color:darkgray;
-  color: white;
-  margin: 0;
+  background-color:rgba(10, 10, 150, 0.658);
+  color: rgb(115, 241, 90);
   text-align: center;
+}
+
+section {
+  vertical-align: top;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  margin: 10px;
+}
+section h2{
+  text-align: left;
+  float: left;
+  margin: 10px;
+}
+section img{
+  margin: 10px;
+
+}
+
+article {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+article p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+  padding: 5px;
+}
+
+address{
+  vertical-align: top;
+  float: right;
+  padding-right: 100px;
+  margin-right: 100px;
+  vertical-align: top;
+}
+address h2{
+  display: inline-block;
+  margin: 5px;
 }
